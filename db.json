@@ -1,0 +1,109 @@
+{
+  "snacks": [
+    {
+      "id": "1",
+      "name": "Masala Fries",
+      "price": 40,
+      "ordersCount": 128,
+      "image": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d"
+    },
+    {
+      "id": "2",
+      "name": "Veg Burger",
+      "price": 65,
+      "ordersCount": 96,
+      "image": "https://images.unsplash.com/photo-1586816001966-79b736744398"
+    },
+    {
+      "id": "3",
+      "name": "Cold Coffee",
+      "price": 45,
+      "ordersCount": 214,
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735"
+    },
+    {
+      "id": "4",
+      "name": "Paneer Roll",
+      "price": 55,
+      "ordersCount": 73,
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8"
+    },
+    {
+      "id": "5",
+      "name": "Samosa",
+      "price": 20,
+      "ordersCount": 341,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950"
+    },
+    {
+      "id": "6",
+      "name": "Mango Shake",
+      "price": 50,
+      "ordersCount": 187,
+      "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4"
+    }
+  ],
+  "students": [
+    {
+      "id": "101",
+      "name": "Aarav Sharma",
+      "referralCode": "EDZ12345"
+    },
+    {
+      "id": "102",
+      "name": "Priya Mehta",
+      "referralCode": "EDZ67890"
+    },
+    {
+      "id": "9MEskRo2450",
+      "name": "kashish",
+      "referralCode": "EDZ16439",
+      "createdAt": "2026-04-03T20:38:16.974Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1001",
+      "studentId": 101,
+      "snackId": 1,
+      "snackName": "Masala Fries",
+      "quantity": 2,
+      "total": 80
+    },
+    {
+      "id": "1002",
+      "studentId": 101,
+      "snackId": 3,
+      "snackName": "Cold Coffee",
+      "quantity": 1,
+      "total": 45
+    },
+    {
+      "id": "1003",
+      "studentId": 102,
+      "snackId": 2,
+      "snackName": "Veg Burger",
+      "quantity": 1,
+      "total": 65
+    },
+    {
+      "id": "URLs6edj8NI",
+      "studentId": "1775248696974",
+      "snackId": "2",
+      "snackName": "Veg Burger",
+      "quantity": 1,
+      "total": 65,
+      "createdAt": "2026-04-03T20:38:29.751Z"
+    },
+    {
+      "id": "CSvUraxVNxs",
+      "studentId": "1775248696974",
+      "snackId": "4",
+      "snackName": "Paneer Roll",
+      "quantity": 2,
+      "total": 110,
+      "createdAt": "2026-04-03T20:38:39.108Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
